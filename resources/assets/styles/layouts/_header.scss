@@ -1,7 +1,31 @@
-.banner .nav li {
-  @extend .nav-item;
-}
+header.site-header {
+  background-color: $very-dark-grayish-pink;
+  color: $light-grayish-cyan;
 
-.banner .nav a {
-  @extend .nav-link;
+  nav.navbar {
+    background-color: transparent;
+
+    .brand {
+      color: $light-grayish-cyan;
+      font-family: $font-family-title;
+      font-size: 1.5rem;
+      text-decoration: none;
+
+      img {
+        margin-right: 2rem;
+      }
+    }
+
+    ul.nav {
+      li.menu-item {
+        @extend .nav-item;
+
+        & > a {
+          @extend .nav-link;
+
+          color: $light-grayish-cyan;
+        }
+      }
+    }
+  }
 }

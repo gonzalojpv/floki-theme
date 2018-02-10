@@ -1,1 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Anonymous+Pro:400,400i,700,700i');
+
+$very-dark-grayish-pink: #444243;
+$light-grayish-cyan: #dee0e0;
+
+// fonts
+$font-family-base   : 'Anonymous Pro', monospace, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-serif: $font-family-base;
+$font-family-serif  :      'Anonymous Pro', monospace, Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:  'Anonymous Pro', monospace, "Courier New", monospace !default;
+$font-family-base   :       $font-family-sans-serif !default;
+
+$font-family-title :'Amatic SC', cursive;
